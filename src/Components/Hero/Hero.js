@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 
 
-import Marquee from 'react-fast-marquee'
+
 import dark_arrow from '../../assets/dark-arrow.png'
 
 const Hero = () => {
