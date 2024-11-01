@@ -27,7 +27,6 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Video from './Components/Video/Video'
-import helmet from 'helmet'
 import { Helmet } from 'react-helmet'
 // import Login from './Components/Login/Login'
 
