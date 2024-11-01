@@ -27,6 +27,8 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Video from './Components/Video/Video'
+import helmet from 'helmet'
+import { Helmet } from 'react-helmet'
 // import Login from './Components/Login/Login'
 
 const App = () => {
@@ -35,7 +37,12 @@ const App = () => {
 
   return (
     <div>
-    
+
+    <Helmet>
+    <meta name="google-adsense-account" content="ca-pub-1298362010587940"/>
+    <title>AI BASED DISCOURSE FOR BANKING INDUSTRY</title>
+    </Helmet>
+      
       <Navbar/>
       <Hero/>
       
